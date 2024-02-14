@@ -1,0 +1,30 @@
+terraform init
+terraform fmt    - formatting in all of your configuration files  
+terraform validate   - Validate your configuration
+terraform apply   - Apply the configuration 
+terraform show   - Inspect the current state
+terraform state list    -  list of the resources in your project's state.
+terraform destroy   - terminates resources managed by your Terraform project.
+
+terraform apply -var "instance_name=YetAnotherName"  - for providing another name to instance 
+terraform output  - Terraform prints output values to the screen when you apply your configuration.
+
+
+
+terraform apply -auto-approve
+
+
+
+
+
+
+mkdir learn-terraform-docker-container
+cd learn-terraform-docker-container
+Create main.tf file 
+Copy code from - https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+terraform init
+terraform apply
+Check localhost:8000
+terraform destroy
+
+
